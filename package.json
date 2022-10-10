@@ -1,26 +1,23 @@
 {
-  "devDependencies": {
-    "http-server": "^14.1.1",
-    "jest": "^29.1.2"
-  },
-  "name": "mitxpro-holy-grail",
+  "name": "react-holygrail",
   "version": "1.0.0",
-  "description": "node app for holy grail",
+  "description": "holy grail column data using redis",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cskaroulis/MITxPRO-holy-grail.git"
+    "url": "git+https://github.com/kogsio/react-holygrail.git"
   },
-  "author": "cskaroulis@yahoo.com",
+  "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cskaroulis/MITxPRO-holy-grail/issues"
+    "url": "https://github.com/kogsio/react-holygrail/issues"
   },
-  "homepage": "https://github.com/cskaroulis/MITxPRO-holy-grail#readme",
+  "homepage": "https://github.com/kogsio/react-holygrail#readme",
   "dependencies": {
-    "express": "^4.18.1"
+    "express": "^4.17.1",
+    "redis": "^3.0.2"
   }
 }
